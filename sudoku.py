@@ -1,12 +1,39 @@
 a = [int(x) for x in input("Enter the digits for row 1 : ").split()]
+while len(a) != 9:
+    a = [int(x) for x in input("Error: digits not equal to 9 \n Enter the digits for row 1 : ").split()]
+
 b = [int(x) for x in input("Enter the digits for row 2 : ").split()]
+while len(b) != 9:
+    b = [int(x) for x in input("Error: digits not equal to 9 \n Enter the digits for row 2 : ").split()]
+
 c = [int(x) for x in input("Enter the digits for row 3 : ").split()]
+while len(c) != 9:
+    c = [int(x) for x in input("Error: digits not equal to 9 \n Enter the digits for row 3 : ").split()]
+
 d = [int(x) for x in input("Enter the digits for row 4 : ").split()]
+while len(d) != 9:
+    d = [int(x) for x in input("Error: digits not equal to 9 \n Enter the digits for row 4 : ").split()]
+
 e = [int(x) for x in input("Enter the digits for row 5 : ").split()]
+while len(e) != 9:
+    e = [int(x) for x in input("Error: digits not equal to 9 \n Enter the digits for row 5 : ").split()]
+
 f = [int(x) for x in input("Enter the digits for row 6 : ").split()]
+while len(f) != 9:
+    f = [int(x) for x in input("Error: digits not equal to 9 \n Enter the digits for row 6 : ").split()]
+
 g = [int(x) for x in input("Enter the digits for row 7 : ").split()]
+while len(g) != 9:
+    g = [int(x) for x in input("Error: digits not equal to 9 \n Enter the digits for row 7 : ").split()]
+
 h = [int(x) for x in input("Enter the digits for row 8 : ").split()]
+while len(h) != 9:
+    h = [int(x) for x in input("Error: digits not equal to 9 \n Enter the digits for row 8 : ").split()]
+
 z = [int(x) for x in input("Enter the digits for row 9 : ").split()]
+while len(z) != 9:
+    z = [int(x) for x in input("Error: digits not equal to 9 \n Enter the digits for row 9 : ").split()]
+
 
 chart = [
     a,
